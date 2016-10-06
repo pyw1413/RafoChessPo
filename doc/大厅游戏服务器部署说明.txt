@@ -1,0 +1,42 @@
+大厅/游戏 服务器部署说明
+
+软件环境要求:
+linux centos 6.7 64位 操作系统
+jdk 1.7 64位
+gradle
+git
+redis3.0.5
+mysql5.7
+smartfoxserver2.8.5
+
+
+硬件性能最低要求：
+内存4G
+cpu 2G 2核
+
+代码:
+git仓库地址 https://github.com/rafotech/RafoChessProject.git
+工程类型 java gradle工程
+
+主要配置文件（conf目录）：
+1、sfs服务器配置文件-server.xml
+   sfs管理账号，密码，sfs服务端口等。
+
+2、jetty配置文件-jetty.xml
+   sfs管理web页面的端口号
+   
+3、zone的配置文件-BasicExamples.zone.xml
+   主要配置项目有；zone名称，zone class名称，自定义登陆，idle time，用户数，dbmanage等。
+
+4、应用程序配置文件-config.properties
+    数据库和redis的配置
+
+脚本(bin目录)：
+1、部署脚本--deploy_gameserver.sh;deploy_hall.sh
+2、数据库脚本--hall_db.sql
+
+部署步骤：
+1、安装基础软件环境
+2、初始化mysql数据库，启动redis
+3、修改配置文件
+4、运行部署脚本

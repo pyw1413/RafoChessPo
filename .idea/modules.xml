@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/RafoChessProject.iml" filepath="$PROJECT_DIR$/.idea/modules/RafoChessProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/RafoChessProject_main.iml" filepath="$PROJECT_DIR$/.idea/modules/RafoChessProject_main.iml" group="RafoChessProject" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/RafoChessProject_test.iml" filepath="$PROJECT_DIR$/.idea/modules/RafoChessProject_test.iml" group="RafoChessProject" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/rc-common/rc-common.iml" filepath="$PROJECT_DIR$/.idea/modules/rc-common/rc-common.iml" group="rc-common" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/rc-common/rc-common_main.iml" filepath="$PROJECT_DIR$/.idea/modules/rc-common/rc-common_main.iml" group="rc-common" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/rc-common/rc-common_test.iml" filepath="$PROJECT_DIR$/.idea/modules/rc-common/rc-common_test.iml" group="rc-common" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/rc-gamehall/rc-gamehall.iml" filepath="$PROJECT_DIR$/.idea/modules/rc-gamehall/rc-gamehall.iml" group="rc-gamehall" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/rc-gamehall/rc-gamehall_main.iml" filepath="$PROJECT_DIR$/.idea/modules/rc-gamehall/rc-gamehall_main.iml" group="rc-gamehall" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/rc-gamehall/rc-gamehall_test.iml" filepath="$PROJECT_DIR$/.idea/modules/rc-gamehall/rc-gamehall_test.iml" group="rc-gamehall" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/rc-tcpserver/rc-tcpserver.iml" filepath="$PROJECT_DIR$/.idea/modules/rc-tcpserver/rc-tcpserver.iml" group="rc-tcpserver" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/rc-tcpserver/rc-tcpserver_main.iml" filepath="$PROJECT_DIR$/.idea/modules/rc-tcpserver/rc-tcpserver_main.iml" group="rc-tcpserver" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/rc-tcpserver/rc-tcpserver_test.iml" filepath="$PROJECT_DIR$/.idea/modules/rc-tcpserver/rc-tcpserver_test.iml" group="rc-tcpserver" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/rc-testclient/rc-testclient.iml" filepath="$PROJECT_DIR$/.idea/modules/rc-testclient/rc-testclient.iml" group="rc-testclient" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/rc-testclient/rc-testclient_main.iml" filepath="$PROJECT_DIR$/.idea/modules/rc-testclient/rc-testclient_main.iml" group="rc-testclient" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/rc-testclient/rc-testclient_test.iml" filepath="$PROJECT_DIR$/.idea/modules/rc-testclient/rc-testclient_test.iml" group="rc-testclient" />
+    </modules>
+  </component>
+</project>

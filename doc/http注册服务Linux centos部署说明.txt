@@ -1,0 +1,37 @@
+http注册服务Linux centos部署说明
+
+环境要求:
+linux centos 6.7 64位 操作系统
+jdk 1.7 64位
+maven
+git
+tomcat8
+redis3.0.5
+mysql5.7
+smartfoxserver2.8.5
+
+
+硬件性能最低要求：
+内存4G
+cpu 2G 2核
+
+代码:
+git仓库地址 https://github.com/rafotech/RafoChessLogin.git
+工程类型 java maven web工程
+
+主要配置文件：
+1、tomcat配置文件,见git代码目录conf_doc_bin下的server.xml，关注tomcat端口和日志格式配置
+2、代码目录\src\main\webapp\WEB-INF下的web.xml,关注数据库和redis配置
+
+部署脚本：
+1、代码目录bin下的deploy.sh
+
+部署步骤：
+1、安装基础软件环境
+2、初始化mysql数据库，启动redis
+3、修改配置文件
+4、运行部署脚本
+
+
+
+

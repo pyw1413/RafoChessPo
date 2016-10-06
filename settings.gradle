@@ -1,0 +1,5 @@
+rootProject.name = 'RafoChessProject'
+include 'rc-tcpserver'
+include 'rc-testclient'
+include 'rc-gamehall'
+include 'rc-common'
